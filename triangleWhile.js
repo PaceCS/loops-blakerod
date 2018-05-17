@@ -3,17 +3,18 @@ function triangleWhile(userInput) {
     // row will hold the string to be printed on this row
     let row = '#';
     // counter will hold the value of the counter
-    let counter = 0;
+    let counter = 1;
 
     // Fill in the while loop with the right condition on counter
-    while(/*Put the right condition here*/) {
+    while (counter <= userInput) {
         console.log(row);
         counter += 1;
+        row += '#'
     }
 }
 
 
-//Try out your function here.
+// Try out your function here.
 triangleWhile(5);
 
 
