@@ -1,19 +1,20 @@
-// triangleFor takes an input userInput and logs to the console a one-sided triangle of hashmarks w/ a height of n
+// triangleFor takes an input userInput and logs to the console a
+// one-sided triangle of hashmarks w/ a height of n
+
 function triangleFor(userInput) {
     // row will hold the string to be printed on the row
     let row = '#';
 
     // Fill in the for loop below with the correct conditions
-    for (let counter =/*Put initial condition here*/; counter < /*Put final condition here*/; counter += 1) {
+    for (let counter = 1; counter <= userInput; counter = counter + 1) {
         console.log(row);
         row += '#';
     }
-
 }
 
-//Try out your function here.
-triangleFor(5);
 
+// Try out your function here.
+triangleFor(5);
 
 
 
